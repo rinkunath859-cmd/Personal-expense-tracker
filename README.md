@@ -29,17 +29,19 @@ https://www.python.org/downloads/
 
 Run the following command in the terminal:
 
-pip install pandas matplotlib
+<img width="717" height="45" alt="image" src="https://github.com/user-attachments/assets/160b477b-7bf4-4a21-8c61-4a294da6b0e4" />
+
 3️⃣ Clone or Download the Project
 
 Download the project files or clone the repository:
 
-git clone https://github.com/yourusername/personal-finance-analysis.git
+
 4️⃣ Run the Project
 
 Execute the Python script:
 
-python main.py
+<img width="788" height="36" alt="image" src="https://github.com/user-attachments/assets/8116f944-4677-4c02-b875-905118601ceb" />
+
 
 This will load the dataset, perform analysis, and generate visualizations.
 
@@ -47,15 +49,8 @@ This will load the dataset, perform analysis, and generate visualizations.
 
 Project folder structure:
 
-personal_finance_analysis
-│
-├── data
-│   └── personal_expense_dataset.csv
-│
-├── main.py
-├── analysis_report.md
-├── requirements.txt
-└── README.md
+<img width="687" height="235" alt="image" src="https://github.com/user-attachments/assets/2ecf9ab4-8d40-4a5a-9d46-11811674b3c4" />
+
 File Description
 
 personal_expense_dataset.csv
@@ -101,7 +96,8 @@ The project follows a complete data analysis pipeline:
 
 The dataset is loaded using Pandas.
 
-df = pd.read_csv("personal_expense_dataset.csv")
+<img width="720" height="37" alt="image" src="https://github.com/user-attachments/assets/64a07a06-6b83-43f4-8c64-b5821fc7f892" />
+
 2️⃣ Data Cleaning
 
 Cleaning steps include:
@@ -114,8 +110,8 @@ Validating numerical columns
 
 Example:
 
-df.drop_duplicates(inplace=True)
-df.isnull().sum()
+<img width="845" height="62" alt="image" src="https://github.com/user-attachments/assets/ef49c677-b4cf-4964-9f9d-8ed5f449e2ec" />
+
 3️⃣ Data Analysis
 
 Key metrics calculated include:
@@ -130,7 +126,8 @@ Monthly expense trends
 
 Example:
 
-category_avg = df[expense_categories].mean()
+<img width="626" height="57" alt="image" src="https://github.com/user-attachments/assets/0f758c85-5172-4d85-80bb-49df5d6753ca" />
+
 4️⃣ Data Visualization
 
 The project creates three types of charts using Matplotlib.
@@ -148,18 +145,24 @@ Transport
 Rent
 
 Shopping
+<img width="1241" height="752" alt="image" src="https://github.com/user-attachments/assets/e8d59737-208f-4b37-93c7-c558cf5b3873" />
+
 
 This visualization helps identify which category has the highest expenses.
 
 📈 Chart 2: Line Chart
 
 Purpose: Show expense trends over time.
+<img width="1072" height="687" alt="image" src="https://github.com/user-attachments/assets/1142494c-8265-4c79-ab49-6e5beef74c4c" />
+
 
 The line chart displays how monthly expenses change across different months.
 
 🥧 Chart 3: Pie Chart
 
 Purpose: Show percentage distribution of expenses.
+<img width="845" height="790" alt="image" src="https://github.com/user-attachments/assets/10ee10ed-d786-426f-8dab-43d2eb6503b9" />
+
 
 This chart helps understand which categories dominate total spending.
 
@@ -179,12 +182,8 @@ This chart helps understand which categories dominate total spending.
 
 This project meets all the required technical requirements:
 
-Requirement	Implementation
-Data loading	Dataset loaded using Pandas
-Data cleaning	Missing values and duplicates handled
-Data analysis	Expense category and trend analysis
-Visualization	Bar chart, line chart, pie chart
-Insights	Financial behavior insights generated
+<img width="817" height="326" alt="image" src="https://github.com/user-attachments/assets/786c98a6-cae2-4722-b3ab-d3f4c275e48d" />
+
 🏁 Conclusion
 
 This project demonstrates how Python can be used for data analysis and visualization to understand financial patterns. The insights generated from this analysis can help individuals make better financial decisions and improve budgeting strategies.
